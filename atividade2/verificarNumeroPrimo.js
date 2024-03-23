@@ -1,4 +1,5 @@
 function verificarNumeroPrimo(n){
+    let i = 3;
 
     if(n<=1){
         return false;
@@ -8,7 +9,7 @@ function verificarNumeroPrimo(n){
         return false;
     }
 
-    for(leti=3;i<n;i+=2){
+    for(i;i<n;i+=2){
         if(n%i==0){
             return false;
         }
