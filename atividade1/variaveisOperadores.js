@@ -18,7 +18,7 @@ let exp2 = 3;
 
 // Realização das operações e armazenamento dos resultados
 let soma = soma1 + soma2;
-let subtracao = sub1 - sub2;
+let subtracao = sub1 - sub2; 
 let multiplicacao = mult1 * mult2;
 let divisao = div1 / div2;
 let resto = resto1 % resto2;
